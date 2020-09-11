@@ -10,7 +10,8 @@ opencv-python4.4.0
 1.Put your images into the directory "demo_data"  
 2.In windows 10, run the command line and change the working directory into the CTPN, such as "D:\PycharmProjects\CTPN"  
 3.Run "python demo.py"  
-4.The output files are in the directory "demo_result"
+4.The output files are in the directory "demo_result"  
+Note: The demo use the weights we trained, which is saved in the diretory "weights".
 # train
 ## prepare training data
 1. We used the data of ICDAR2017 Competition on Multi-lingual scene text detection and script identification. You can download it [here](https://rrc.cvc.uab.es/?ch=8&com=downloads). It needs to register. Or you can use your own images and ground truth labels.
